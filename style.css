@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: hsl(233, 47%, 7%);
+  font-family: "Inter", sans-serif;
+}
+.main-div {
+  max-width: 60rem;
+}
+.text-section {
+  width: 50%;
+  background-color: hsl(244, 38%, 16%);
+  padding: 4rem;
+}
+.main-heading,
+.stats-heading {
+  color: hsl(0, 0%, 100%);
+}
+.emphasis {
+  color: hsl(277, 64%, 61%);
+}
+.stats,
+.main-paragraph {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 0.8rem;
+}
+.main-heading {
+  font-size: 1.8rem;
+}
+.stats {
+  margin-top: 4rem;
+  justify-content: space-between;
+  width: 80%;
+  font-size: 1.2rem;
+}
+.main-paragraph {
+  margin-top: 1.8rem;
+  line-height: 2;
+}
+.stat-name {
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  margin-top: 0.5em;
+}
+.staff-image {
+  background-image: url("./images/image-header-desktop.jpg");
+  width: 50%;
+  background-color: hsl(277, 64%, 61%);
+}
+.staff-image::after {
+  content: "";
+}
