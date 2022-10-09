@@ -15,6 +15,7 @@
   .stats {
     display: flex;
     flex-direction: column;
+    gap: 2rem;
   }
   .main-paragraph {
     font-size: 1.9rem;
