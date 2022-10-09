@@ -7,6 +7,7 @@
   <!-- link style sheets to html -->
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./predefined.css">
+  <link rel="stylesheet" href="./queries.css">
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <!-- Link font  -->
@@ -23,8 +24,8 @@
 </head>
 
 <body class="column vr-centre hr-centre">
-  <div class="main-div row">
-    <div class="text-section">
+  <main class="main-div">
+    <div class="text-section" role="contentinfo">
       <h1 class="main-heading">
         Get <span class="emphasis">insights</span> that help your business grow.
       </h1>
@@ -32,7 +33,7 @@
         Discover the benefits of data analytics and make better decisions regarding revenue, customer
         experience, and overall efficiency.
       </p>
-      <div class="stats row uppercase">
+      <section class="stats row uppercase">
         <div>
           <h3 class="stats-heading lowercase">10k+</h3>
           <p class="stat-name"> companies</p>
@@ -45,10 +46,13 @@
           <h3 class="stats-heading">12m+</h3>
           <p class="stat-name"> queries</p>
         </div>
-      </div>
+      </section>
     </div>
-    <div class="staff-image"></div>
-  </div>
+    <picture class="image-section">
+      <source srcset="./images/image-header-mobile.jpg" media="(min-width:750px)">
+      <img src="./images/image-header-desktop.jpg" alt="" class="staff-img" aria-hidden="true">
+    </picture>
+  </main>
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.

@@ -1,0 +1,22 @@
+/* BELOW 750px */
+@media (max-width: 46.88em) {
+  html {
+    font-size: 56.25%;
+  }
+  .main-div {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10rem 2rem;
+  }
+  .text-section {
+    padding: 4rem 3rem;
+    text-align: center;
+  }
+  .stats {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-paragraph {
+    font-size: 1.9rem;
+  }
+}
