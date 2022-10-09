@@ -21,3 +21,12 @@
     font-size: 1.9rem;
   }
 }
+/* BELOW 1000px */
+@media (max-width: 62.5em) {
+  html {
+    font-size: 50%;
+  }
+  .main-div {
+    margin: 4rem;
+  }
+}
